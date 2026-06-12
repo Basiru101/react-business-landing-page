@@ -1,9 +1,24 @@
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Services from "./components/Services";
+import About from "./components/About";
+import Testimonials from "./components/Testimonials";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+
 function App() {
   return (
-    <div>
-      <h1>Basiru Web Solutions</h1>
-      <p>Modern React Landing Pages for Businesses</p>
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+      <Services />
+      <About />
+      <Testimonials />
+      <Contact />
+      <Footer />
+
+    </>
   );
 }
 
