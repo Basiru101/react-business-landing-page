@@ -1,8 +1,7 @@
 function Navbar() {
   return (
     <nav>
-      <h2>Basiru Web Solutions</h2>
-
+<h2>🚀 Basiru Web Solutions</h2>
       <ul>
         <li>
           <a href="#home">Home</a>

@@ -12,12 +12,18 @@ body {
 /* Navbar */
 
 nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 60px;
   background: #111827;
   color: white;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
 }
 
 nav ul {
@@ -226,6 +232,20 @@ nav a:hover {
 .contact-form textarea:focus {
   outline: none;
   border-color: #2563eb;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding: 80px 20px;
+  text-align: center;
+  background: white;
+}
+
+.stats h2 {
+  color: #2563eb;
+  font-size: 3rem;
 }
 
 /* Footer */
