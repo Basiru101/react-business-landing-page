@@ -1,13 +1,16 @@
 function Hero() {
   return (
-    <section id="hero" className="hero">
-      <h1>Professional Websites That Help Businesses Grow</h1>
-      <p>
-        We design and develop modern, responsive, and high-performance websites
-        that help businesses attract more customers and increase their online
-        presence.
-      </p>
-      <button>Start Your Project</button>{" "}
+    <section id="home" className="hero">
+      <div className="hero-content">
+        <h1>Professional Websites That Help Businesses Grow</h1>
+
+        <p>
+          We create modern, responsive, and high-performing websites
+          that help businesses attract customers and grow online.
+        </p>
+
+        <button>Get Free Consultation</button>
+      </div>
     </section>
   );
 }

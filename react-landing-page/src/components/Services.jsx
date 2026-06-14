@@ -3,25 +3,33 @@ function Services() {
     <section id="services" className="services">
       <h2>Our Services</h2>
 
+      <p className="services-subtitle">
+        We provide modern web solutions that help businesses
+        establish a strong online presence.
+      </p>
+
       <div className="service-container">
         <div className="card">
-          <h3>Landing Pages</h3>
+          <h3>Landing Page Design</h3>
           <p>
-            High-converting landing pages designed to attract customers.
+            High-converting landing pages designed to attract
+            visitors and turn them into customers.
           </p>
         </div>
 
         <div className="card">
           <h3>Business Websites</h3>
           <p>
-            Professional websites that help businesses build trust online.
+            Professional websites that build trust and showcase
+            your business online.
           </p>
         </div>
 
         <div className="card">
           <h3>React Development</h3>
           <p>
-            Fast and modern web applications built with React.
+            Fast, modern and scalable web applications built
+            with React.
           </p>
         </div>
       </div>

@@ -1,14 +1,27 @@
 function About() {
   return (
     <section id="about" className="about">
-      <h2>About Us</h2>
+      <div className="about-content">
+        <h2>About Basiru Web Solutions</h2>
 
-      <p>
-        Basiru Web Solutions helps businesses establish a strong online
-        presence through modern, responsive, and user-friendly websites.
-        We focus on delivering high-quality solutions that drive growth
-        and customer engagement.
-      </p>
+        <p>
+          We help businesses, startups, and entrepreneurs build a
+          strong online presence through modern web design and
+          development.
+        </p>
+
+        <p>
+          Our goal is to create websites that are not only visually
+          appealing but also fast, responsive, and optimized to
+          convert visitors into customers.
+        </p>
+
+        <p>
+          Whether you need a landing page, business website, or a
+          custom React application, we focus on delivering quality
+          solutions that help your business grow.
+        </p>
+      </div>
     </section>
   );
 }

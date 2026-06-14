@@ -1,19 +1,19 @@
 function Stats() {
   return (
     <section className="stats">
-      <div>
-        <h2>50+</h2>
-        <p>Projects Completed</p>
+      <div className="stat-item">
+        <h2>5+</h2>
+        <p>React Projects Built</p>
       </div>
 
-      <div>
-        <h2>30+</h2>
-        <p>Happy Clients</p>
+      <div className="stat-item">
+        <h2>10+</h2>
+        <p>Technologies Learned</p>
       </div>
 
-      <div>
-        <h2>100%</h2>
-        <p>Client Satisfaction</p>
+      <div className="stat-item">
+        <h2>100+</h2>
+        <p>Hours of Practice</p>
       </div>
     </section>
   );
