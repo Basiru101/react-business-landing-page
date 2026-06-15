@@ -1,6 +1,6 @@
 function Testimonials() {
   return (
-    <section className="testimonials">
+    <section className="testimonials" id="testimonials" data-aos="fade-left">
       <h2>What Clients Say</h2>
 
       <p className="testimonial-subtitle">

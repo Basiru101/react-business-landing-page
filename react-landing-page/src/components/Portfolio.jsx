@@ -6,7 +6,7 @@ import business4 from "../assets/portfolio/business4.jpg";
 
 function Portfolio() {
   return (
-    <section className="portfolio">
+    <section className="portfolio" id="portfolio" data-aos="zoom-in">
       <h2>Recent Projects</h2>
 
       <p className="portfolio-subtitle">

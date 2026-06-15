@@ -1,3 +1,5 @@
+import { FaLaptopCode, FaBriefcase, FaReact } from "react-icons/fa";
+
 function Services() {
   return (
     <section id="services" className="services">
@@ -10,6 +12,7 @@ function Services() {
 
       <div className="service-container">
         <div className="card">
+          <FaLaptopCode className="service-icon" />
           <h3>Landing Page Design</h3>
           <p>
             High-converting landing pages designed to attract
@@ -18,6 +21,7 @@ function Services() {
         </div>
 
         <div className="card">
+          <FaBriefcase className="service-icon" />
           <h3>Business Websites</h3>
           <p>
             Professional websites that build trust and showcase
@@ -26,6 +30,7 @@ function Services() {
         </div>
 
         <div className="card">
+          <FaReact className="service-icon" />
           <h3>React Development</h3>
           <p>
             Fast, modern and scalable web applications built

@@ -1,3 +1,6 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 import "./App.css";
 import Portfolio from "./components/Portfolio";
 import Navbar from "./components/Navbar";
@@ -10,6 +13,13 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  }, []);
+
   return (
     <>
       <Navbar />
@@ -21,7 +31,6 @@ function App() {
       <Testimonials />
       <Contact />
       <Footer />
-
     </>
   );
 }

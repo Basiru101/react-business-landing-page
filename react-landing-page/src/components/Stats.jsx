@@ -1,6 +1,6 @@
 function Stats() {
   return (
-    <section className="stats">
+    <section className="stats" data-aos="zoom-in">
       <div className="stat-item">
         <h2>5+</h2>
         <p>React Projects Built</p>
